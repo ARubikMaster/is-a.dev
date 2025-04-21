@@ -1,0 +1,205 @@
+body {
+    background-color: #cad2c5;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #354f52, #52796f);
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.title {
+    font-size: 40px;
+    color: #cad2c5;
+}
+
+.content-div {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ align-items: center;   
+ min-height: 100vh;
+}
+
+.content {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.text {
+    color: #2f3e46;
+    font-size: 22px;
+}
+
+.subtitle {
+    font-size: 32px;
+    color: #2f3e46;
+    
+}
+
+.software-text {
+    color: #2f3e46;
+    font-size: 40px;
+}
+
+.devicon-vscode-plain {
+    color: #2f3e46;
+    font-size: 40px;
+    transition: color 0.2s ease-in-out;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.devicon-vscode-plain:hover {
+    color: #52796f;
+    font-size: 50px;
+}
+
+.devicon-gimp-plain {
+    color: #2f3e46;
+    font-size: 40px;
+    transition: color 0.2s ease-in-out;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.devicon-gimp-plain:hover {
+    color: #52796f;
+    font-size: 50px;
+}
+
+.devicon-blender-original {
+    color: #2f3e46;
+    font-size: 40px;
+    transition: color 0.2s ease-in-out;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.devicon-blender-original:hover {
+    color: #52796f;
+    font-size: 50px;
+}
+
+.devicon-godot-plain {
+    color: #2f3e46;
+    font-size: 40px;
+    transition: color 0.2s ease-in-out;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.devicon-godot-plain:hover {
+    color: #52796f;
+    font-size: 50px;
+}
+
+.devicon-python-plain {
+    color: #2f3e46;
+    font-size: 40px;
+    transition: color 0.2s ease-in-out;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.devicon-python-plain:hover {
+    color: #52796f;
+    font-size: 50px;
+}
+
+.devicon-go-original-wordmark {
+    color: #2f3e46;
+    font-size: 40px;
+    transition: color 0.2s ease-in-out;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.devicon-go-original-wordmark:hover {
+    color: #52796f;
+    font-size: 50px;
+}
+
+.devicon-html5-plain {
+    color: #2f3e46;
+    font-size: 40px;
+    transition: color 0.2s ease-in-out;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.devicon-html5-plain:hover {
+    color: #52796f;
+    font-size: 50px;
+}
+
+.devicon-git-plain {
+    color: #2f3e46;
+    font-size: 40px;
+    transition: color 0.2s ease-in-out;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.devicon-git-plain:hover {
+    color: #52796f;
+    font-size: 50px;
+}
+
+.devicon-linux-plain {
+    color: #2f3e46;
+    font-size: 40px;
+    transition: color 0.2s ease-in-out;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.devicon-linux-plain:hover {
+    color: #52796f;
+    font-size: 50px;
+}
+
+.devicon-windows11-original {
+    color: #2f3e46;
+    font-size: 40px;
+    transition: color 0.2s ease-in-out;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.devicon-windows11-original:hover {
+    color: #52796f;
+    font-size: 50px;
+}
+
+.footer {
+    display: flex;
+    background-color: #2f3e46;
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.footer-text {
+    color: #cad2c5;
+    font-size: 18px;
+}
