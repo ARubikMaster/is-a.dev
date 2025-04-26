@@ -172,6 +172,30 @@ body.scrolled-down .content {
     background-color: rgb(245, 245, 235);
 }
 
+.resources {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 10px;
+}
+
+.resource {
+    display: flex;
+    flex-direction: row;
+}
+
+.resource-button {
+    background-color: rgb(37, 37, 37);
+    color: rgb(245, 245, 235);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .footer {
     background-color: rgb(37, 37, 37);
     padding: 20px;
