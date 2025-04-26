@@ -8,7 +8,7 @@ document.addEventListener('keydown', function(event) {
 
     let a = document.createElement('a');
     a.href = url;
-    a.download = 'myfile.txt';
+    a.download = 'justwrite.txt';
     a.click();
 
     URL.revokeObjectURL(url);
