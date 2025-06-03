@@ -1,0 +1,330 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #313131;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: right;
+
+}
+
+.menu_selected {
+  color: #169126;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu_regular {
+  color: #fff;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50px);
+  grid-auto-rows: 50px;
+  gap: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: #313131;
+  box-sizing: border-box;
+  transition: background-color 1s ease 0s;
+  border: #505050 solid 1px;
+  position: relative;
+  z-index: 1;
+}
+ 
+.square:hover {
+  background-color: #169126;
+  transition: background-color 0s ease 0s;
+}
+
+.title {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  font-family: "Pixelify Sans", sans-serif;
+  pointer-events: none;
+  font-weight: 100;
+  z-index: 10;
+}
+
+
+
+.about {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 20px;
+    background-color: #505050;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.pfp {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.description {
+    color: #fff;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.content {
+    padding: 20px;
+    background-color: #747474;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.subtitle {
+    color: #fff;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle-no-margin {
+    color: #fff;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.skill {
+    background-color: #505050;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.skill-title {
+    color: #fff;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.python-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #4caf50 0deg 250deg,
+      #3d3d3d 250deg 360deg
+    );
+}
+
+.golang-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #4caf50 0deg 170deg,
+      #3d3d3d 170deg 360deg
+    );
+}
+
+.web-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #4caf50 0deg 100deg,
+      #3d3d3d 100deg 360deg
+    );
+}
+
+.godot-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #4caf50 0deg 80deg,
+      #3d3d3d 80deg 360deg
+    );
+}
+
+.blender-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #4caf50 0deg 260deg,
+      #3d3d3d 260deg 360deg
+    );
+}
+
+.git-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #4caf50 0deg 60deg,
+      #3d3d3d 60deg 360deg
+    );
+}
+
+.button {
+    background-color: #3d3d3d;
+    color: #fff;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #4caf50;
+}
+
+.footer {
+    background-color: #313131;
+    color: #fff;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+.stuck-footer {
+    background-color: #313131;
+    overflow-x: hidden;
+    height: auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.project {
+    background-color: #505050;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.indev {
+    display: flex;
+    background: linear-gradient(
+      to right,
+      transparent 0%,
+      #4caf50 20%,
+      #4caf50 80%,
+      transparent 100%
+    );
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.userinfo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+#text {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#guestbooks___guestbook-messages-container blockquote {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+#guestbooks___guestbook-messages-container p b a {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+#guestbooks___guestbook-messages-container p b {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+#guestbooks___guestbook-messages-container p small {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}

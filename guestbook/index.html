@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>epicCoolDog's Guestbook</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assets/pfp.png" type="image/x-icon">
+</head>
+<body>
+    <div class="menu">
+        <a href="/" class="menu_regular">Home</a>
+        <a href="../blog" class="menu_regular">Blog</a>
+        <a href="../projects" class="menu_regular">Projects</a>
+        <a href="guestbook" class="menu_selected">Guestbook</a>
+    </div>
+
+    <div class="header" id="header">
+        <h1 class="title">epicCoolDog's Guestbook</h1>
+    </div>
+
+    <div class="about">
+        <img src="../assets/pfp.png" alt="pfp" class="pfp">
+        <p class="description">Welcome to my guestbook! Feel free to leave a message or comment about my website, comment, or anything else!</p>
+    </div>
+
+    <div class="content">
+        <h2 class="subtitle">Sign the Guestbook</h2>
+        
+        <script async src="https://guestbooks.meadow.cafe/resources/js/embed_script/643/script.js"></script> 
+        <div id="guestbooks___guestbook-form-container">
+            <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/643/submit" method="post">
+                <div class="userinfo">
+                    <div class="guestbooks___input-container">
+                        <input placeholder="Name" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="guestbooks___input-container">
+                        <input placeholder="Website (optional)" type="url" id="website" name="website">
+                    </div>
+                </div>
+                <div id="guestbooks___challenge-answer-container"></div>  
+                <br/>
+                <div class="guestbooks___input-container">
+                    <textarea placeholder="Message (plain text only)..." id="text" name="text" style="width: 100%; box-sizing: border-box; resize: vertical;" required></textarea>
+                </div>
+                <br/>
+                <input type="submit" value="Submit">
+                <div id="guestbooks___error-message"></div>  
+            </form>
+        </div>
+
+        <br>
+        <h3 id="guestbooks___guestbook-messages-header" class="subtitle">Messages</h3>
+        <div id="guestbooks___guestbook-messages-container">
+            
+        </div>  
+
+    </div>
+
+    <div class="footer">
+        <p class="description">epicCoolDog.is-a.dev | No rights reserved :D</p>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
