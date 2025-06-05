@@ -105,6 +105,7 @@ canvas {
     justify-content: left;
     padding-left: 10%;
     padding-right: 10%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 768px) {
@@ -146,6 +147,7 @@ canvas {
     font-family: "Pixelify Sans", sans-serif;
     font-size: 32px;
     margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 .subtitle-no-margin {
@@ -310,6 +312,14 @@ input {
     font-family: "Pixelify Sans", sans-serif;
     font-size: 16px;
     box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
 }
 
 input[type="submit"] {
