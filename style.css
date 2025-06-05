@@ -360,3 +360,22 @@ input[type="submit"] {
     font-size: 16px;
     color: #fff;
 }
+
+.bounce_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bounce {
+  animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
