@@ -379,3 +379,15 @@ input[type="submit"] {
     transform: translateY(-20px);
   }
 }
+
+.blog {
+  cursor: pointer;
+  background-color: #505050;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.blog:hover {
+  background-color: #4caf50;
+}
