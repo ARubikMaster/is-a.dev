@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat</title>
+  <link rel="shortcut icon" href="/assets/pfp.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/peerjs@1.5.5/dist/peerjs.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div class="contain">
+    <input id="custom-id" placeholder="Choose Your ID" />
+    <button onclick="startPeer()">Start Peer</button>
+  </div>
+
+  <div class="contain">
+    <input id="connect-to" placeholder="Connect to Peer ID" />
+    <button onclick="connect()">Connect</button>
+  </div>
+  <br>
+  
+  <div id="chat"></div>
+
+  <div class="contain">
+    <input id="message" placeholder="Type your message" />
+    <button onclick="send()">Send</button>
+  </div>
+
+</body>
+</html>
