@@ -198,6 +198,16 @@ canvas {
     );
 }
 
+.cpp-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #4caf50 0deg 72deg,
+      #3d3d3d 72deg 360deg
+    );
+}
+
 .web-chart {
     width: 200px;
     height: 200px;
@@ -233,8 +243,8 @@ canvas {
     height: 200px;
     border-radius: 50%;
     background: conic-gradient(
-      #4caf50 0deg 60deg,
-      #3d3d3d 60deg 360deg
+      #4caf50 0deg 180deg,
+      #3d3d3d 180deg 360deg
     );
 }
 

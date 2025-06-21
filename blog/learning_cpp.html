@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learning C++ - epicCoolDog</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/pfp.png" type="image/x-icon">
+</head>
+<body>
+    <canvas id="myCanvas"></canvas>
+
+    <div class="scroll">
+        <div class="menu">
+            <a href="/" class="menu_regular">Home</a>
+            <a href="/blog" class="menu_selected">Blog</a>
+            <a href="/projects" class="menu_regular">Projects</a>
+            <a href="/guestbook" class="menu_regular">Guestbook</a>
+        </div>
+
+        <div class="header" id="header">
+            <h1 class="title">Learning C++</h1>
+        </div>
+
+        <div class="about">
+            <img src="/assets/pfp.png" alt="pfp" class="pfp">
+            <p class="description">In this blog post, I will be discussing why I started to learn C++</p>
+        </div>
+        <div class="content">
+
+            <h2 class="subtitle">Learning C++ - Blog post 4</h2>
+            <p class="description"><i class="description">21st of June, 2025</i> <br>
+            <br>
+            I know that I started to learn Golang a couple months ago and am still very far from mastering it, but I was yet again surprised by how much of a backend language it is. For things like graphical user interfaces, I use wails, which uses html/css/js for frontend and Golang as a backend. That is completely fine for me, but if I want to make a game, the only good option seems to be Ebiten, which is a bit like Pygame that I have worked with before. However, it has no direct support for 3D games, and any frameworks in Golang that do support 3D graphics are poorly or not at all documented. <br><br>
+            The best option for 3D games in Golang seemed to be g3n, but it is a bit outdated and has no documentation except a half written introdoction. So I decided to learn another language, specifically aimed towards using it for games. <br><br>
+            After a bit of research, I found that C++ seemed to be the best option. I could have used C# with Unity, but I have always used frameworks for games, and the only time I used an engine, Godot, I found it hard to adapt. Also, engines sort of ruin the fun for me, as it does not feel as good as writing essentially everything from scratch int a framework that pretty much only takes care of the graphics. <br><br>
+            I started to learn a bit about C++, and it was pretty fast to get used to for the basics, but I have not yet started to look into pointers, mostly because they are not needed for now. A few things I found weird was how you print to the console. In most languages you would have something like: print("Hello World!") or fmt.Println("Hello World!"), but in C++, it is std::cout << "Hello World!" << std::endl; <br><br>
+            Another thing that took me some time to get used to is having to put semicolons after each line. Python supports them optionally, but I never used to, so I often forget to add them. Finally, I really do not like the errors in C++. They are so confusing that I basically have no other option than to use my IDE's (VSCode) debugger, which I don't ever use in other languages. I would usually just put print statements everywhere and see what would run to help me debug. <br><br>
+            For my framework, I decided to use raylib. I am probably going to move to OpenGL later on, but for now it is way to low-level for me. I started by following a snake tutorial, then tried to make something myself. After making it in pygame to figure out the logic, I recreated my sand simulator in raylib. It is really just a cellular automota, but it still creates a nice effect. <br><br>
+            This does not mean I am giving up Golang, in fact, I am only planning to use C++ for games, so anything from desktop apps to terminal apps will still be made in Golang, as I really like it's philosophy.
+            </p>
+        </div>
+
+        <div class="bounce_container">
+            <button class="button" id="bounce"><a href="/blog" class="description">Back to Blogs!</a></button>
+        </div>
+
+        <br>
+
+        <div class="footer">
+            <p class="description">epicCoolDog.is-a.dev | No rights reserved :D</p>
+        </div>
+
+    </div>
+
+    <script src="/script.js"></script>
+    <script src="/bg.js"></script>
+</body>
+</html>
