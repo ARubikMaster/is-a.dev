@@ -248,6 +248,26 @@ canvas {
     );
 }
 
+.c-cpp-chart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #4caf50 0deg 108deg,
+    #3d3d3d 108deg 360deg
+  );
+}
+
+.lua-chart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #4caf50 0deg 216deg,
+    #3d3d3d 216deg 360deg
+  );
+}
+
 .button {
     background-color: #3d3d3d;
     color: #fff;
