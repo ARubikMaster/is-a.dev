@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>epic's guestbook</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/fengari-web@0.1.4/dist/fengari-web.js"></script>
+    <script src="/script.lua" type="application/lua" async></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="content">
+        <br>
+        <h1 class="title">epic's guestbook</h1>
+        <p>
+            <a href="/index.html">home</a> 
+            <a href="/notes/">notes</a> 
+            <a href="/guestbook/">guestbook</a> 
+            <a href="/blogs/">blogs</a> 
+            <a href="/projects/">projects</a>
+            <a href="/links/">links</a>
+            |
+            <a href="/contact/">contact</a>
+        </p>
+        <hr>
+        <hr>
+        <br>
+        <h1 class="subtitle">sign ðe guestbook!</h1>
+        <br>
+
+        <script async src="https://guestbooks.meadow.cafe/resources/js/embed_script/643/script.js"></script> 
+        <div id="guestbooks___guestbook-form-container">
+            <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/643/submit" method="post">
+                <div class="userinfo">
+                    <div class="guestbooks___input-container">
+                        <input placeholder="Name" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="guestbooks___input-container">
+                        <input placeholder="Website (optional)" type="url" id="website" name="website">
+                    </div>
+                </div>
+                <div id="guestbooks___challenge-answer-container"></div>  
+                <br/>
+                <div class="guestbooks___input-container">
+                    <textarea placeholder="Message (plain text only)..." id="text" name="text" style="width: 100%; box-sizing: border-box; resize: vertical;" required></textarea>
+                </div>
+                <br/>
+                <input type="submit" value="Submit" class="submit">
+                <div id="guestbooks___error-message"></div>  
+            </form>
+        </div>
+        <br>
+        <h3 id="guestbooks___guestbook-messages-header" class="subtitle">Messages</h3>
+        <div id="guestbooks___guestbook-messages-container">
+        </div>  
+       
+        <br>
+        <hr>
+        <hr>
+        <br>
+
+        <p style="align-items: center; justify-content: center;">
+            <i>ðis website is open source</i>
+        </p>
+    </div>
+</body>
+</html>
