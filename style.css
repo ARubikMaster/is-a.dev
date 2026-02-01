@@ -65,6 +65,12 @@ p {
     color: var(--text-color);
 }
 
+small { 
+    font-size: 12px;
+    font-family: 'jetbrains mono';
+    color: var(--text-color);
+}
+
 .userinfo {
     display: flex;
     gap: 10px;
